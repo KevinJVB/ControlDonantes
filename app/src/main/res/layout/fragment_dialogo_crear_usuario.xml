@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.examen.kevinnextu.controldonantes.Dialogos.DialogoCrearUsuario">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/nombre_de_usuario"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
+        android:id="@+id/usuario_deseado"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/usuario_deseado"
+        android:layout_marginTop="26dp"
+        android:id="@+id/pass_deseada"
+        android:hint="@string/password"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="@string/confirmar_password"
+        android:layout_below="@+id/pass_deseada"
+        android:layout_marginTop="27dp"
+        android:id="@+id/pass_confirmada"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="@string/cancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass_confirmada"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="92dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginTop="31dp"
+        android:id="@+id/btn_cancelar_usuario" />
+
+    <Button
+        android:text="@string/crear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_cancelar_usuario"
+        android:layout_alignLeft="@+id/btn_cancelar_usuario"
+        android:layout_alignStart="@+id/btn_cancelar_usuario"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:id="@+id/btn_crear_usuario" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/nuevo_usuario"
+        android:textAlignment="center"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/editText4" />
+</RelativeLayout>

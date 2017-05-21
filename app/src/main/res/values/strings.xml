@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Control Donantes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="password">Password</string>
+    <string name="confirmar_password">Confirmar Password</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="crear">Crear</string>
+    <string name="iniciar_sesion">Iniciar</string>
+    <string name="nuevo_usuario">Nuevo usuario</string>
+    <string name="bienvenido">Bienvenido al Control de Donantes GTB</string>
+    <string name="title_activity_donantes">Donantes</string>
+    <string name="cambiar_password">Cambiar Password</string>
+    <string name="cerrar">Cerrar Sesion</string>
+    <string name="eliminar_cuenta">Eliminar Cuenta</string>
+    <string name="pass_actual">Password Actual</string>
+    <string name="password_nueva">Password Nueva</string>
+    <string name="guardar">Guardar</string>
+    <string name="editar">Se ha editado correctamente</string>
+    <string name="no_coincide">No coincide la nueva contraseña</string>
+    <string name="confirmar_eliminar">¿Esta seguro que desaea borrar su cuenta?</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="eliminado">Eliminado correctamente</string>
+    <string name="nuevo_donante">Nuevo Donante</string>
+    <string name="peso_kg">Peso (Kg)</string>
+    <string name="estatura_cm">Estatura (cm)</string>
+    <string name="edad">Edad</string>
+    <string name="apellido">Apellido</string>
+    <string name="nombre">Nombre</string>
+    <string name="no_identificaci_n">No Identificación</string>
+    <string name="donantes">Donantes</string>
+    <string name="buscar">Buscar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="borrar_donante">Desea borrar este donante?</string>
+    <string name="cambiado">Cambiado correctamente</string>
+
+    <string-array name="tiposSangre">
+        <item>Seleccione tipo de Sangre</item>
+        <item>Tipo A</item>
+        <item>Tipo B</item>
+        <item>Tipo O</item>
+        <item>Tipo AB</item>
+    </string-array>
+
+    <string-array name="tipoRH">
+        <item>Seleccione Rh</item>
+        <item>Rh +</item>
+        <item>Rh -</item>
+    </string-array>
+</resources>
